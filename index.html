@@ -1,11 +1,785 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Page 1</title>
+    <link rel="stylesheet" href="./src/output.css">
 </head>
+
 <body>
-    
+    <div class="max-w-[90%] flex lg:w-full lg:max-w-[1100px] m-auto items-center justify-between mt-4 mb-10">
+        <img src="./src/images/Лого.png" alt="">
+
+        <div class="hidden lg:flex gap-4">
+            <a href="./page2.html">Как покупать</a>
+            <a href="./page3.html">Распродажи</a>
+            <a href="./page4.html">Цены</a>
+            <a href="./page5.html">Помощь</a>
+            <a href="./page6.html">Бонусы</a>
+            <a href="./page7.html">Блог</a>
+            <a href="./page8.html">Магазины</a>
+        </div>
+
+        <div class="flex gap-3 ">
+
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+            </svg>
+
+            <p> Вход</p>
+
+        </div>
+
+        <button
+            class="hidden lg:flex gap-3 bg-[linear-gradient(90deg,#00C97B_0%,#00D981_96.96%)] pl-3 pr-3 pt-2 pb-2 rounded-[30px] items-center text-center justify-center text-[white]"> <a href="./page1.html">Связаться
+            с нами </a></button>
+    </div>
+
+    <div
+        class="max-w-[90%] flex lg:w-full lg:max-w-[1290px]  h-auto m-auto items-center justify-between mt-4 rounded-[30px] bg-[linear-gradient(79.63deg,#5B52A3_1.08%,#40B8EA_100%)] ">
+
+        <div
+            class="lg:max-w-[1100px] flex-col m-auto max-w-[90%] justify-between lg:flex lg:flex-row lg:justify-between pt-10 pb-3 mb-10 ">
+
+            <div class="flex-col lg:w-[50%] ]">
+                <h1 class="text-[40px] lg:text-[45px] font-bold text-[white] ">Доставка товаров из Великобритании в
+                    Россию</h1>
+                <p class="text-white mt-4 mb-8 leading-relaxed">Начните экономить до 80% на шопинге. Регистрируйтесь в
+                    OkeyPost, чтобы покупать со скидками в UK
+                    одежду, обувь, гаджеты известных брендов и безопасно отправлять вещи в Россию.
+                </p>
+                <button
+                    class=" mb-10 lg:flex gap-3 bg-[linear-gradient(90deg,#00C97B_0%,#00D981_96.96%)] p-4 rounded-[30px] items-center text-center justify-center text-[white]">Получить
+                    адрес в UK</button>
+
+            </div>
+
+            <div class="lg:w-[40%]">
+                <img src="./src/images/Иллюстрация.png" alt="">
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+    <div class="flex flex-col lg:max-w-[1100px] flex-col m-auto max-w-[90%] mb-5  ">
+        <div class="mb-5">
+            <h1 class="text-left text-[33px] font-bold mt-20 mb-3">Насколько выгодно <br> покупать?</h1>
+        </div>
+
+
+        <div class="flex justify-between shadow-xl rounded-2xl p-3 ">
+            <div class=" hidden lg:flex items-center justify-center">
+                <img class="items-center justify-center" src="./src/images/Vector 5 (1).png" alt="">
+            </div>
+
+            <div class="flex items-center justify-center gap-3">
+                <img src="./src/images/Иконка.png" alt="">
+                <p class="font-semibold">Одежда</p>
+            </div>
+
+            <div class="flex items-center justify-center gap-3">
+                <img src="./src/images/Иконка (1).png" alt="">
+                <p class="font-semibold">Электроника</p>
+            </div>
+            <div class="hidden  lg:flex items-center justify-center gap-3">
+                <img src="./src/images/Иконка (2).png" alt="">
+                <p class="font-semibold">Аксессуары</p>
+            </div>
+            <div class="hidden  lg:flex items-center justify-center gap-3">
+                <img src="./src/images/Иконка (3).png" alt="">
+                <p class="font-semibold">Для детей</p>
+            </div>
+            <div class="hidden  lg:flex items-center justify-center gap-3">
+                <img src="./src/images/Иконка (4).png" alt="">
+                <p class="font-semibold">Для спорта</p>
+            </div>
+            <div class="hidden  lg:flex items-center justify-center gap-3">
+                <img src="./src/images/Иконка (5).png" alt="">
+                <p class="font-semibold">Косметика</p>
+            </div>
+
+            <div class="  hidden lg:flex items-center justify-center">
+                <img class="items-center justify-center" src="./src/images/Vector 6.png" alt="">
+            </div>
+
+        </div>
+
+
+        <div class="flex  lg:mt-30 justify-between flex-col lg:flex lg:flex-row">
+
+            <div class="flex flex-col mt-20">
+                <h1 class="text-[18px] font-bold mb-9">Columbia Barlow Pass 550 <br>
+                    Turbodown Jacket</h1>
+                <div class=" flex gap-3 bg-[#F2F6FC] rounded-2xl items-center justify-around">
+                    <img class="ml-4" src="./src/images/фон.png" alt="">
+                    <div class="flex flex-col p-3 pr-5 pl-5 ">
+                        <p>Цена в России</p>
+                        <h1>7891,46₽</h1>
+                    </div>
+
+                </div>
+
+                <div class=" hidden lg:block mt-30">
+                    <img src="./src/images/Футболка.png" alt="">
+                </div>
+            </div>
+
+            <div class="flex flex-col">
+                <div class="mt-5">
+                    <img src="./src/images/Куртка.png" alt="">
+                </div>
+                <div>
+                    <p class="text-center text-[#1F2428] mt-5">Срок доставки примерно 10 дней</p>
+                    <p class="text-center font-bold text-2xl text-[#1F2428] mt-5">Вы экономите до <span
+                            class="text-[#01CD7D]">$119.56 </span> </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="flex-col-reverse lg:flex-col mt-20">
+
+
+                <h1 class="text-[18px] font-bold mb-9">Доставка одежды из <br> Великобритании от £7.79</h1>
+
+                <div class="flex gap-3 bg-[#F2F6FC] rounded-2xl items-center justify-around">
+                    <img class="ml-4" src="./src/images/фон (1).png" alt="">
+                    <div class="flex flex-col p-3 pr-5 pl-5">
+                        <p>Цена в UK</p>
+                        <h1 class="text-[#01CD7D]">£80.62</h1>
+                    </div>
+
+                </div>
+
+                <div class="hidden mt-30 flex justify-end items-end">
+                    <img src="./src/images/Джинсы.png" alt="">
+                </div>
+            </div>
+
+
+        </div>
+
+
+        <div class="flex justify-between shadow-xl rounded-2xl lg:gap-10 p-5 lg:p-10 mt-15 ">
+
+
+            <div class="flex items-center justify-center gap-3 ">
+                <img src="./src/images/Иконка.png" alt="">
+                <p class="font-semibold">Экономия <br> до 70%</p>
+            </div>
+
+            <div class="flex items-center justify-center gap-3">
+                <img src="./src/images/Иконка (2).png" alt="">
+                <p class="font-semibold">Оперативная <br> доставка</p>
+
+            </div>
+            <div class="hidden  lg:flex items-center justify-center gap-3">
+                <img src="./src/images/Иконка (1).png" alt="">
+                <p class="font-semibold">Только <br> подлинная продукция</p>
+
+            </div>
+            <div class="hidden  lg:flex items-center justify-center gap-3">
+                <img src="./src/images/Иконка (3).png" alt="">
+                <p class="font-semibold">Огромный <br> выбор товаров</p>
+            </div>
+
+
+
+        </div>
+
+
+
+    </div>
+
+
+    <div
+        class="max-w-[90%] flex lg:w-full lg:max-w-[1290px]  h-auto m-auto items-center justify-between mt-4 rounded-[30px] bg-[linear-gradient(79.63deg,#5B52A3_1.08%,#40B8EA_100%)] mt-20 ">
+
+        <div
+            class="lg:max-w-[1100px] flex-col m-auto max-w-[90%] justify-between lg:flex lg:flex-row lg:justify-between pt-10 pb-3 mb-10 ">
+
+            <div class="lg:w-[40%] lg:h-50">
+                <img class="lg:h-70" src="./src/images/Иллюстрация (1).png" alt="">
+            </div>
+
+
+            <div class="flex-col lg:w-[60%] ]">
+                <h1 class="text-[20px] lg:text-[25px] font-bold text-[white] ">Поручите нашим мастерам шопинга оформить
+                    заказы в английских магазинах и освободите время для более важных дел.</h1>
+                <p class="text-white mt-4 mb-8 leading-relaxed">Такой способ покупки также подойдёт, если магазин
+                    принимает только английские карты.
+                </p>
+                <button
+                    class=" mb- lg:flex gap-3 bg-[linear-gradient(90deg,#00C97B_0%,#00D981_96.96%)] p-3 pl-4 pr-4 rounded-[30px] items-center text-center justify-center text-[white]">Попробовать</button>
+
+            </div>
+
+
+
+        </div>
+
+
+    </div>
+
+
+
+    <div class="flex flex-col lg:max-w-[1100px] flex-col m-auto max-w-[90%] mb-5  ">
+        <div class="mb-5">
+            <h1 class="text-left text-[33px] font-bold mt-20 mb-3 lg:pr-100">OkeyPost удобная и быстрая доставка посылок
+                из Великобритании </h1>
+            <p class="text-[17px] lg:pr-100 leading-relaxed ">Рассчитайте стоимость доставки из Англии к вам домой. Мы
+                получим ваши посылки на складе, при необходимости объединим несколько доставок в одну и отправим их к
+                вам надежно упакованными.</p>
+        </div>
+
+        <div class="bg-white rounded-3xl p-6 sm:p-8 shadow-sm border  mb-14">
+            <form class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6 items-end">
+
+                <div class="relative  pb-2 transition">
+                    <label class="block text-xs font-bold text-black uppercase tracking-wider mb-1">Страна:</label>
+                    <div class="flex items-center space-x-2">
+                        <span class="text-base"><img src="./src/images/GlobeHemisphereWest.png" alt=""></span>
+                        <select
+                            class="w-full bg-transparent text-sm font-semibold text-slate-800 focus:outline-none appearance-none cursor-pointer pr-4">
+                            <option>Россия</option>
+                            <option>Казахстан</option>
+                        </select>
+                        <span class="absolute right-0 bottom-3 text-xs text-black pointer-events-none">▼</span>
+                    </div>
+                </div>
+
+                <div class="border-b border-black pb-2 transition">
+                    <label class="block text-xs font-bold text-black uppercase tracking-wider mb-1">Город:</label>
+                    <div class="flex items-center space-x-2">
+                        <span class="text-base"><img src="./src/images/Buildings.png" alt=""></span>
+                        <input type="text" value="Москва"
+                            class="w-full bg-transparent text-sm font-semibold text-slate-800 focus:outline-none placeholder-slate-300"
+                            placeholder="Москва">
+                    </div>
+                </div>
+
+                <div class="border-b border-black pb-2 transition">
+                    <label class="block text-xs font-bold text-black uppercase tracking-wider mb-1">Индекс:</label>
+                    <div class="flex items-center space-x-2">
+                        <span class="text-base"><img src="./src/images/Notebook.png" alt=""></span>
+                        <input type="text"
+                            class="w-full bg-transparent text-sm font-semibold text-slate-800 focus:outline-none placeholder-black"
+                            placeholder="Введите индекс">
+                    </div>
+                </div>
+
+                <div class="border-b border-black pb-2 transition">
+                    <label class="block text-xs font-bold text-black uppercase tracking-wider mb-1">Вес посылки:</label>
+                    <div class="flex items-center space-x-2">
+                        <span class="text-base"><img src="./src/images/Barbell.png" alt=""></span>
+                        <input type="text" value="0,5"
+                            class="w-full bg-transparent text-sm font-semibold text-slate-800 focus:outline-none placeholder-slate-400"
+                            placeholder="0,5">
+                    </div>
+                </div>
+
+                <div class="relative border-b border-black pb-2 transition">
+                    <label class="block text-xs font-bold text-black uppercase tracking-wider mb-1">Дополнительные
+                        услуги:</label>
+                    <div class="flex items-center space-x-2">
+                        <span class="text-base"><img src="./src/images/FileText.png" alt=""></span>
+                        <select
+                            class="w-full bg-transparent text-sm font-semibold text-slate-800 focus:outline-none appearance-none cursor-pointer pr-4">
+                            <option>Выберите услуги</option>
+                            <option>Страховка</option>
+                            <option>Доп. упаковка</option>
+                        </select>
+                        <span class="absolute right-0 bottom-3 text-xs text-black-400 pointer-events-none">▼</span>
+                    </div>
+                </div>
+            </form>
+
+            <div class="mt-8 flex justify-center">
+                <button type="button"
+                    class="bg-[#22C55E] text-white font-semibold text-sm px-8 py-3.5 rounded-full shadow-md transition-all active:scale-[0.98]">
+                    Рассчитать
+                </button>
+            </div>
+        </div>
+
+        <div class="mb-5">
+            <h1 class="text-left text-[33px] font-bold mt-20 mb-3 lg:pr-100">Варианты доставки:</h1>
+        </div>
+
+        <div class=" mt-5">
+
+            <div
+                class=" bg-white rounded-2xl p-5 sm:p-6 shadow-sm border border-slate-100 flex  lg:flex-row lg:items-center justify-between gap-4">
+                <div class="flex items-center space-x-4 min-w-[250px]">
+                    <div class="text-3xl p-2 bg-slate-50 rounded-xl"><img src="./src/images/Иконка (6).png" alt=""></div>
+                    <span class="font-extrabold text-xs sm:text-sm tracking-wider uppercase text-slate-800">Почта
+                        России</span>
+                </div>
+
+                <div class=" lg:items-center gap-6 lg:space-x-12 text-slate-800 w-full lg:justify-end flex flex-row">
+                    <div class="hidden lg:block">
+                        <p class="text-[11px] uppercase tracking-wider">Сроки:</p>
+                        <p class="text-sm font-extrabold mt-0.5">10-14 дней</p>
+                    </div>
+                    <div class="hidden lg:block ">
+                        <p class="text-[11px] uppercase tracking-wider flex items-center">
+                            Стоимость доставки: <span class="ml-1 cursor-help opacity-60">ⓘ</span>
+                        </p>
+                        <p class="text-sm font-extrabold mt-0.5">от £27.00</p>
+                    </div>
+                    <div class="hidden lg:block ">
+                        <p class="text-[11px] uppercase tracking-wider">Итого:</p>
+                        <p class="text-sm font-black text-slate-900 mt-0.5">£41.99</p>
+                    </div>
+                    <div class="flex justify-end items-center  ">
+                        <img src="./src/images/Подробнее.png" alt="">
+                    </div>
+                </div>
+
+
+
+            </div>
+
+            <div
+                class="mt-5 bg-white rounded-2xl p-5 sm:p-6 shadow-sm border border-slate-100 flex  lg:flex-row lg:items-center justify-between gap-4">
+                <div class="flex items-center space-x-4 min-w-[250px]">
+                    <div class="text-3xl p-2 bg-slate-50 rounded-xl"><img src="./src/images/Иконка (7).png" alt=""></div>
+                    <span class="font-extrabold text-xs sm:text-sm tracking-wider uppercase text-slate-800">EMS ПОЧТА
+                        РОССИЯ</span>
+                </div>
+
+                <div class=" lg:items-center gap-6 lg:space-x-12 text-slate-800 w-full lg:justify-end flex flex-row">
+                    <div class="hidden lg:block">
+                        <p class="text-[11px] uppercase tracking-wider">Сроки:</p>
+                        <p class="text-sm font-extrabold mt-0.5">9-12 дней</p>
+                    </div>
+                    <div class="hidden lg:block ">
+                        <p class="text-[11px] uppercase tracking-wider flex items-center">
+                            Стоимость доставки: <span class="ml-1 cursor-help opacity-60">ⓘ</span>
+                        </p>
+                        <p class="text-sm font-extrabold mt-0.5">от £40.00</p>
+                    </div>
+                    <div class="hidden lg:block ">
+                        <p class="text-[11px] uppercase tracking-wider">Итого:</p>
+                        <p class="text-sm font-black text-slate-900 mt-0.5">£54.55</p>
+                    </div>
+                    <div class="flex justify-end items-center  ">
+                        <img src="./src/images/Подробнее.png" alt="">
+                    </div>
+                </div>
+
+
+
+            </div>
+            <div
+                class="mt-5 bg-white rounded-2xl p-5 sm:p-6 shadow-sm border border-slate-100 flex  lg:flex-row lg:items-center justify-between gap-4">
+                <div class="flex items-center space-x-4 min-w-[250px]">
+                    <div class="text-3xl p-2 bg-slate-50 rounded-xl"><img src="./src/images/Иконка (8).png" alt=""></div>
+                    <span class="font-extrabold text-xs sm:text-sm tracking-wider uppercase text-slate-800">ПОЧТА РОССИИ
+                        МЕЛКИЕ ПАКЕТЫ</span>
+                </div>
+
+                <div class=" lg:items-center gap-6 lg:space-x-12 text-slate-800 w-full lg:justify-end flex flex-row">
+                    <div class="hidden lg:block">
+                        <p class="text-[11px] uppercase tracking-wider">Сроки:</p>
+                        <p class="text-sm font-extrabold mt-0.5">9-12 дней</p>
+                    </div>
+                    <div class="hidden lg:block ">
+                        <p class="text-[11px] uppercase tracking-wider flex items-center">
+                            Стоимость доставки: <span class="ml-1 cursor-help opacity-60">ⓘ</span>
+                        </p>
+                        <p class="text-sm font-extrabold mt-0.5">от £13.00</p>
+                    </div>
+                    <div class="hidden lg:block ">
+                        <p class="text-[11px] uppercase tracking-wider">Итого:</p>
+                        <p class="text-sm font-black text-slate-900 mt-0.5">£90.50</p>
+                    </div>
+                    <div class="flex justify-end items-center  ">
+                        <img src="./src/images/Подробнее.png" alt="">
+                    </div>
+                </div>
+
+
+
+            </div>
+
+
+
+        </div>
+
+
+
+        <div class="flex flex-col lg:max-w-[1100px] flex-col m-auto max-w-[90%] mb-5  ">
+            <div class="mb-5">
+                <h1 class="text-left text-[33px] font-bold mt-20 mb-3 lg:pr-140 lg:mt-30">4 простых шага для ваших
+                    покупок в Великобритании </h1>
+            </div>
+
+            <div class="gap-8 mb-14 mt-10 flex flex-col lg:flex lg:flex-row items-center lg:justify-between">
+
+                <div class="flex flex-col space-y-4">
+                    <div class=" flex items-center justify-center relative">
+                        <div class=" flex items-center justify-center text-4xl ">
+                            <img src="./src/images/Иллюстрация (2).png" alt="">
+                        </div>
+                    </div>
+                    <div class="space-y-2">
+                        <h3 class="text-xl font-black text-slate-900 uppercase ">
+                            Вы выбираете <br> товар
+                        </h3>
+                        <p class="text-[14px] leading-relaxed">
+                            в английском магазине, оплачиваете и указываете <span
+                                class="text-emerald-500 font-bold">адрес склада</span> OkeyPost
+                        </p>
+                    </div>
+                </div>
+                <div class="flex flex-col space-y-4">
+                    <div class=" flex items-center justify-center relative">
+                        <div class=" flex items-center justify-center text-4xl ">
+                            <img class="mt-10" src="./src/images/Иллюстрация (3).png" alt="">
+                        </div>
+                    </div>
+                    <div class="space-y-2">
+                        <h3 class="text-xl font-black text-slate-900 uppercase ">
+                            ПОКУПКИ ПРИХОДЯТ НА СКЛАД
+                        </h3>
+                        <p class="text-[14px] leading-relaxed">
+                            и появляются в вашем личном кабинете на нашем сайте </p>
+                    </div>
+                </div>
+                <div class="flex flex-col space-y-4">
+                    <div class=" flex items-center justify-center relative">
+                        <div class=" flex items-center justify-center text-4xl ">
+                            <img class="mt-10" src="./src/images/Иллюстрация (4).png" alt="">
+                        </div>
+                    </div>
+                    <div class="space-y-2">
+                        <h3 class="text-xl font-black text-slate-900 uppercase  ">
+                            ОТПРАВЛЯЕМ ИХ К ВАМ ДОМОЙ
+                        </h3>
+                        <p class="text-[14px] leading-relaxed">
+                            в надежной упаковке, по выгодной цене и очень быстро
+                        </p>
+                    </div>
+                </div>
+                <div class="flex flex-col ">
+                    <div class=" flex items-center justify-center relative">
+                        <div class=" flex items-center justify-center text-4xl  ">
+                            <img class="mt-10" src="./src/images/Иллюстрация (5).png" alt="">
+                        </div>
+                    </div>
+                    <div class="space-y-2">
+                        <h3 class="text-xl font-black text-slate-900 uppercase lg:mt-13 ">
+                            ЗАБИРАЕТЕ
+                            свою ПОСЫЛКУ
+                        </h3>
+                        <p class="text-[14px] leading-relaxed">
+                            в пункте выдачи, на почте или с курьером
+                        </p>
+                    </div>
+                </div>
+
+
+            </div>
+            <p class="text-[17px] lg:pr-100 mt-10 leading-relaxed ">Не хотите разбираться самостоятельно, наши мастера
+                шопинга с радостью купят все товары за вас.</p>
+            <button type="button"
+                class="bg-[#22C55E] text-white font-semibold text-sm px-8 py-3.5 rounded-full w-50 mt-10 shadow-md transition-all active:scale-[0.98]">
+                Быстрая покупка
+            </button>
+
+
+
+            <div
+                class="max-w-[100%] flex lg:w-full lg:max-w-[1400px]  h-auto m-auto items-center justify-between mt-4 rounded-[30px] bg-[linear-gradient(79.63deg,#5B52A3_1.08%,#40B8EA_100%)] mt-20 ">
+                <div
+                    class="lg:max-w-[1100px] flex-col m-auto max-w-[90%] justify-between lg:flex lg:flex-row lg:justify-between pt-10 pb-3 mb-10 ">
+
+                    <div class="lg:w-[40%] lg:h-50">
+                        <img class="lg:h-70" src="./src/images/Иллюстрация (6).png" alt="">
+                    </div>
+
+
+                    <div class="flex-col lg:w-[60%] ]">
+                        <h1 class="text-[20px] lg:text-[25px] font-bold text-[white] ">Виртуальный тур по нашему складу
+                            в реальном времени</h1>
+                        <p class="text-white mt-4 mb-8 leading-relaxed">Вы можете всегда посмотреть на нашу слаженую
+                            работу на складе
+                        </p>
+                        <button
+                            class=" mb- lg:flex gap-3 bg-[linear-gradient(90deg,#00C97B_0%,#00D981_96.96%)] p-3 pl-4 pr-4 rounded-[30px] items-center text-center justify-center text-[white]">Попробовать</button>
+
+                    </div>
+
+
+
+                </div>
+
+
+            </div>
+
+
+
+
+            <div class="flex flex-col lg:max-w-[1100px] flex-col m-auto max-w-[90%] mb-5  ">
+                <div class="mb-5">
+                    <h1 class="text-left text-[33px] font-bold mt-20 mb-3 lg:pr-100">120 000 довольных клиентов в России
+                        уже сделали свой выбор </h1>
+                    <p class="text-[17px] lg:pr-100 leading-relaxed ">За последний год десятки тысяч наших клиентов
+                        заказали товары из Англии и оставили 19 633 отзыва</p>
+                </div>
+
+
+                <div class="flex-col lg:flex lg:flex-row items-center justify-between">
+
+                    <div
+                        class="lg:w-[30%] p-7 w-90% m-auto bg-white shadow-lg rounded-[20px] h-auto pb-9 flex-col mt-10">
+                        <img src="./src/images/Иконка (9).png" alt="">
+                        <h1 class="font-bold text-[16px] p-4 pl-0">Больше не значит дороже</h1>
+                        <p>С ростом веса посылки цена за каждые 0.5 кг уменьшается в прогрессии.</p>
+                    </div>
+                    <div
+                        class="lg:w-[30%] p-7 w-90% m-auto bg-white shadow-lg rounded-[20px] h-auto pb-9 flex-col mt-10">
+                        <img src="./src/images/Иконка (10).png" alt="">
+                        <h1 class="font-bold text-[16px] p-4 pl-0">Быстрая обработка посылок</h1>
+                        <p>Посылка обрабатывается не дольше 48 часов после поступления на склад.</p>
+                    </div>
+                    <div
+                        class="lg:w-[30%] p-7 w-90% m-auto bg-white shadow-lg rounded-[20px] h-auto pb-9 flex-col mt-10">
+                        <img src="./src/images/Иконка (9).png" alt="">
+                        <h1 class="font-bold text-[16px] p-4 pl-0">SMS-уведомления</h1>
+                        <p>Отслеживайте весь процесс с помощью sms-уведомлений.</p>
+                    </div>
+
+                </div>
+
+
+                <div class="mb-24">
+                    <h1 class="text-left text-[33px] font-bold mt-20 mb-3 lg:pr-100"> Отзывы и цитаты блогеров: </h1>
+
+                    <div class="flex-col justify-between lg:flex lg:flex-row mt-15">
+
+                        <div
+                            class=" w-90% lg:w-[47%] bg-white shadow-lg rounded-[20px] h-auto pb-5 flex justify-between items-center ">
+                            <div class=" hidden lg:block w-[40%] h-[200px] items-center justify-center  p-5">
+
+                                <img class="h-40" src="./src/images/фон (3).png" alt="">
+                            </div>
+
+                            <div class="flex-col p-4">
+                                <h1 class="font-bold"> DMITRIY D</h1>
+                                <img src="./src/images/рейтинг.png" alt="">
+                                <p>Пуховик Levi’s c eBay. Всё приехало быстро и целым.</p>
+
+                                <p class="font-bold mt-8">Дата: <span class="font-normal">16 Ноября 2021</span> </p>
+                                <p class="font-bold">Город: <span class="font-normal">Санкт-Петербург</span> </p>
+
+
+                            </div>
+                        </div>
+
+                        <div
+                            class="  w-90% lg:w-[47%] bg-white shadow-lg rounded-[20px] h-auto pb-5 flex justify-between items-center mt-10 lg:mt-0 ">
+                            <div class=" hidden lg:block w-[40%] h-[200px] items-center justify-center  p-5">
+
+                                <img class="h-40" src="./src/images/фон (2).png" alt="">
+                            </div>
+
+                            <div class="flex-col p-4">
+                                <h1 class="font-bold">NIKOLAY S</h1>
+                                <img src="./src/images/рейтинг.png" alt="">
+                                <p>Ваша доставка самая быстрая и дешёвая!!!</p>
+
+                                <p class="font-bold mt-8">Дата: <span class="font-normal">16 Ноября 2021</span> </p>
+                                <p class="font-bold">Город: <span class="font-normal">Санкт-Петербург</span> </p>
+
+
+                            </div>
+
+
+
+                        </div>
+
+                    </div>
+                    <div class="hidden lg:flex flex-col justify-between lg:flex lg:flex-row mt-15">
+
+                        <div
+                            class=" w-90% lg:w-[47%] bg-white shadow-lg rounded-[20px] h-auto pb-5 flex justify-between items-center ">
+                            <div class=" hidden lg:block w-[40%] h-[200px] items-center justify-center  p-5">
+
+                                <img class="h-40" src="./src/images/фон (4).png" alt="">
+                            </div>
+
+                            <div class="flex-col p-4">
+                                <h1 class="font-bold"> VLADIMIR E</h1>
+                                <img src="./src/images/рейтинг.png" alt="">
+                                <p>Пуховик Levi’s c eBay. Всё приехало быстро и целым.</p>
+
+                                <p class="font-bold mt-8">Дата: <span class="font-normal">16 Ноября 2021</span> </p>
+                                <p class="font-bold">Город: <span class="font-normal">Санкт-Петербург</span> </p>
+
+
+                            </div>
+                        </div>
+
+                        <div
+                            class="  w-90% lg:w-[47%] bg-white shadow-lg rounded-[20px] h-auto pb-5 flex justify-between items-center mt-10 lg:mt-0 ">
+                            <div class=" hidden lg:block w-[40%] h-[200px] items-center justify-center  p-5">
+
+                                <img class="h-40" src="./src/images/фон (5).png" alt="">
+                            </div>
+
+                            <div class="flex-col p-4">
+                                <h1 class="font-bold">Оксана</h1>
+                                <img src="./src/images/рейтинг.png" alt="">
+                                <p>Ваша доставка самая быстрая и дешёвая!!!</p>
+
+                                <p class="font-bold mt-8">Дата: <span class="font-normal">16 Ноября 2021</span> </p>
+                                <p class="font-bold">Город: <span class="font-normal">Санкт-Петербург</span> </p>
+
+
+                            </div>
+
+
+
+                        </div>
+
+
+
+                    </div>
+                    <button type="button"
+                        class="bg-[#22C55E] text-white font-semibold text-sm px-8 py-3.5 rounded-full w-50 mt-10 shadow-md transition-all active:scale-[0.98]">
+                        Все отзывы
+                    </button>
+
+                    <div class="mb-5 mt-20">
+                        <h1 class="text-left text-[33px] font-bold mt-20 mb-3 ">Ваш личный адрес в Великобритании для
+                            покупок </h1>
+                        <p class="text-[17px]  leading-relaxed ">С нами вы получаете целых два адреса в UK! У
+                            нас есть два склада для приема посылок – в Лондоне и Манчестере. Указывайте в магазине тот
+                            из них, отправка на который обойдется дешевле (или покупка будет без налогов). Чаще всего в
+                            Лондоне наши клиенты заказывают одежду и обувь, а в Манчестер идут гаджеты и всё остальное.
+                            С OkeyPost вы всегда получаете максимальную выгоду! <br> <br>
+
+                            При доставке из UK в Россию все ваши товары обязательно страхуются. Прием посылок на наш
+                            склад, их обработка, удаление лишних коробок, хранение сроком до 70 дней – у нас полностью
+                            бесплатно. Мы также бесплатно проводим объединение посылок из разных магазинов в одну. Это
+                            необходимо для снижения стоимости доставки посылок из UK в Россию. <br> <br>
+
+                            У нас самая выгодная доставка! От $11.99 за посылку! А если у вас есть какие-то особенные
+                            требования, вроде проверки техники или дополнительной пленки для самых хрупких товаров, –
+                            операторы нашего склада с радостью выполнят их по спецзапросу. <br> <br>
+
+                            Okeypost.com – это надежно, быстро и выгодно. А в наших соцсетях вы всегда найдете
+                            информацию о лучших скидках fyukbqcrb[ магазинов. Не обязательно заходить в Черную пятницу
+                            или Prime Day, крутые акции проходят каждый день!</p>
+                    </div>
+
+
+                </div>
+
+
+
+
+
+
+
+
+
+            </div>
+
+
+
+            <div
+                class="max-w-[100%] flex lg:w-full lg:max-w-[1400px]  h-auto m-auto items-center justify-between mt-4 rounded-[30px] bg-[linear-gradient(79.63deg,#5B52A3_1.08%,#40B8EA_100%)] mt-20 ">
+                <div
+                    class="lg:max-w-[1100px] flex-col m-auto max-w-[90%] justify-between lg:flex lg:flex-row lg:justify-between pt-10 pb-3 mb-10 pl-6 pr-6">
+
+                    <div class="lg:w-[40%] mb-4">
+
+                        <h1 class="text-[20px] lg:text-[25px] font-bold text-[white] ">Виртуальный тур по нашему складу
+                            в реальном времени</h1>
+
+                    </div>
+                    <div class="flex items-center space-x-2">
+                        <span class="text-base  text-white"><img src="./src/images/EnvelopeSimpleOpen.png" alt=""></span>
+                        <input type="email" value="Введите ваш email"
+                            class="w-full bg-transparent text-sm font-semibold text-white focus:outline-none placeholder-white border-b-2 p-2"
+                            placeholder="Введите ваш email">
+                    </div>
+
+                    <div class="lg:mt-3.5 mt-7">
+
+                        <button
+                            class="  lg:flex gap-3 bg-[linear-gradient(90deg,#00C97B_0%,#00D981_96.96%)] p-3 pl-4 pr-4 rounded-[30px] items-center text-center justify-center text-[white]">Подписаться</button>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+
+        </div>
+
+      <div
+            class="bg-white lg:h-auto h-auto w-[100%] mt-[100px] flex items-center justify-around lg:flex-row flex-col grid gap-y-5 ml-0 ml-[-50px] lg:flex lg:flex-row ">
+            <div class="flex flex-col lg:mb-10 ">
+
+                <img class="mb-7" src="./src/images/Лого.png" alt="">
+                <img class="w-30" src="./src/images/Соцсети.png" alt="">
+            </div>
+
+            <div class="text-[13px] text-[#1F2428] grid gap-y-2">
+                <p class="text-[15px] font-bold">О компании</p>
+                <p>Услуги</p>
+                <p>Цены</p>
+                <p>Отзывы</p>
+                <p>Контакты</p>
+                <p>Вакансии</p>
+                <p>Соглашение о персональных данных</p>
+                <p>Условия использования</p>
+
+            </div>
+            <div class="text-[13px] grid gap-y-2">
+                <p class="text-[15px] font-bold">Полезное</p>
+                <p>Как работает наш сервис</p>
+                <p>Как покупать с оператором</p>
+                <p>Ответы на частые вопросы</p>
+                <p>Популярные магазины</p>
+                <p>Черный список магазинов</p>
+                <p>Соглашение о персональных данных</p>
+                <p>Актуальные распродажи</p>
+
+            </div>
+            <div class="text-[13px] grid gap-y-2">
+                <p class="text-[15px] font-bold">Спецпроекты</p>
+                <p>50% на первую доставку</p>
+                <p>Скидки для постоянных клиентов</p>
+                <p>Реферальная программа</p>
+                <p>Кэшбек Mr. Rebates и Rakuten</p>
+                <p>Stop Fraud</p>
+                <p>Соглашение о персональных данных</p>
+                <p>Актуальные распродажи</p>
+
+            </div>
+
+        </div>
+
+
+
+
+
+
 </body>
+
 </html>
